@@ -18,7 +18,23 @@ A user have 3 main functionalities
 
 # Testing
 
-example for user id: 1, 2, 3
+examples for testing:
+ user id: 1
+ 
+ ![Screenshot_1736686416](https://github.com/user-attachments/assets/962f4eee-454b-4a35-9b9b-1a47212cddce)
+
+ user id: 2
+ 
+ ![Screenshot_1736686628](https://github.com/user-attachments/assets/83e2e3cf-7291-45fb-8c60-914f8f5c0472)
+
+ user id: 3
+
+  ![Screenshot_1736686777](https://github.com/user-attachments/assets/9230f282-9f1b-4fd0-bdb0-7d3f7b63896a)
+
+user id :4 (without qr code for testing)
+
+QR Code Samples:
+
 
 # Login Page
 ![Screenshot_1736685584](https://github.com/user-attachments/assets/f00b76c6-da82-412a-b6c1-ec69bff99e98)

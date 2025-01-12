@@ -25,12 +25,11 @@ class TransactionController extends GetxController {
   }
 
   void transferBalance() async {
-    if (balance.text.isEmpty) return;
     loading = true;
     LoadingOverlay.of(Get.context!).show();
     update();
     var res = await _transactionRepository.transferBalance(
-        endUserCode!, int.parse(balance.text));
+        endUserCode!, int.tryParse(balance.text) ?? 1);
     balance.clear();
     LoadingOverlay.of(Get.context!).hide();
     loading = false;
